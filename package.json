@@ -1,0 +1,20 @@
+{
+  "name": "weather-server",
+  "version": "0.1.0",
+  "description": "A Model Context Protocol server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector bun --watch run ./src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.0.1",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
